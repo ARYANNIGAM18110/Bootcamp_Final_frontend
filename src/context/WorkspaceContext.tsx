@@ -66,7 +66,7 @@ export const EMPTY_CANDIDATE_PROFILE: CandidateProfile = {
   phone: '',
   headline: '',
   location: '',
-  summary: '',
+  cv_file: '',
   skills: [],
   education: [],
   projects: [],
@@ -74,7 +74,6 @@ export const EMPTY_CANDIDATE_PROFILE: CandidateProfile = {
   hackathons: [],
   certifications: [],
   preferred_roles: [],
-  completeness_score: 0,
   updated_at: new Date().toISOString(),
 };
 
